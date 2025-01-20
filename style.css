@@ -86,12 +86,11 @@ li:hover {
 .address {
   color: hsl(75, 94%, 57%);
 }
-.attribution {
+footer.attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: auto;
   margin-bottom: 1rem;
 }
-.attribution a {
+footer.attribution a {
   color: hsl(228, 45%, 44%);
 }
