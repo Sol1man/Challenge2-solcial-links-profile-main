@@ -17,7 +17,11 @@ img {
   border-radius: 100%;
 }
 
-body {
+html{
+  font-size: 110%;
+}
+
+body, main {
   font-family: 'TemplateFont', sans-serif;
   display: flex;
   flex-direction: column;
@@ -39,7 +43,7 @@ body {
   align-items: center;
   border-radius: 0.6rem;
   background-color: hsl(0, 0%, 12%);
-  width: 330px;
+  width: 340px;
 }
 
 .profile-details .name{
@@ -80,6 +84,7 @@ li {
   width: 90%;
 }
 li:hover {
+  transition: 0.8s;
   background-color: hsl(75, 94%, 57%);
   color: black;
 }
