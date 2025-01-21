@@ -2,7 +2,6 @@
   font-family: 'TemplateFont';
   src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
 }
-
 *,
 *::before,
 *::after {
@@ -16,11 +15,9 @@ img {
   height: 4.5rem;
   border-radius: 100%;
 }
-
 html{
   font-size: 110%;
 }
-
 body, main {
   font-family: 'TemplateFont', sans-serif;
   display: flex;
@@ -45,12 +42,10 @@ body, main {
   background-color: hsl(0, 0%, 12%);
   width: 340px;
 }
-
 .profile-details .name{
   font-size: 1.2rem;
   margin-bottom: 0.4rem;
 }
-
 .profile-details .address{
   color: hsl(75, 94%, 57%);;
   margin-bottom: 0.8rem;
@@ -69,7 +64,6 @@ body, main {
   border-radius: 0.5rem;
   width: 90%;
 }
-
 .links-list li a{
   text-decoration: none;
   color: inherit;
