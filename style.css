@@ -68,7 +68,16 @@ body, main {
   text-decoration: none;
   color: inherit;
 }
-li {
+/* li {
+  text-align: center;
+  list-style: none;
+  padding: 0.6rem;
+  margin: 0.5rem auto;
+  border-radius: 0.4rem;
+  background-color: hsl(0, 0%, 20%);
+  width: 90%;
+} */
+.list-item {
   text-align: center;
   list-style: none;
   padding: 0.6rem;
@@ -92,4 +101,15 @@ footer.attribution {
 }
 footer.attribution a {
   color: hsl(228, 45%, 44%);
+}
+.instagram-text {
+  font-weight: bold;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari and Chrome */
+  -webkit-text-fill-color: transparent; /* Makes the background visible as text */
+  text-align: center;
+}
+.twitter-text {
+  color: rgb(29, 161, 242);
 }
